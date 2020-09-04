@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<meta charset="UTF-8">
+
+<head>
+<style type="text/css">
+body
+{
+    background-color:lavender;
+}
+</style>
+<script type="text/javascript">
+function set_title(title)
+{
+    document.title=title;
+}
+</script>
+</head>
+
+<html>
+<body onload="document.getElementById('title_text').focus();">
+<h4>Custom Title</h4>
+<form id="title_setter">
+ <input type="text" id="title_text" />
+ <input type="button" value="Set title" onclick="set_title(document.getElementById('title_text').value)" />
+</form>
+
+</body>
+</html>
