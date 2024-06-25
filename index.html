@@ -8,14 +8,15 @@
         background-color:lavender;
     }
     </style>
-
+    <!-- The meat and potatos -->
     <script src="titlesetter.js" type="text/javascript" ></script>
 
+    <!-- Intentionally blank favicon, do not use up more space in the title area! -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 
 <html>
 <body onload="document.getElementById('title_text').focus();">
-    <h4>Custom Title</h4>
         <form id="title_setter">
             <input type="text" id="title_text" />
             <input type="button" value="Set title" onclick="set_title(document.getElementById('title_text').value)" />
